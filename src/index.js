@@ -1,8 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import MyComponent  from './colors-component/color-palette';
 import reportWebVitals from './reportWebVitals';
+
+function App() {
+  return (
+    <div className="App">
+      <h1>My Color Palette Generator</h1>
+   <MyComponent />
+    </div>
+  );
+}
 
 ReactDOM.render(
   <React.StrictMode>
